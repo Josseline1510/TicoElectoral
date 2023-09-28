@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Configuración de codificación de caracteres -->
+    <meta charset="UTF-8" />
+    <!-- Configuración de la vista en dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Título de la página -->
+    <title>TicoElectoral</title>
+    <!-- Autor de la página -->
+    <meta name="author" content="Josseline González Beita" />
+    <!-- Descripción de la página -->
+    <meta name="og:description" content="Sitio Web de las Elecciones de Costa Rica 2022" />
+    <!-- Enlace a la hoja de estilos personalizada (style.css) -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <header id="header" class="header-grid"></header>
+    <div class="header-info">
+        <h1>TICOELECTORAL</h1>
+        <h2>Elecciones de Costa Rica 2022</h2>
+    </div>
+
+    <main>
+        <nav id="menu">
+            <h2>Menú</h2>
+            <ul>
+                <li><a href="index.html" target="_self">Home</a></li>
+                <li><a href="rodrigo.html" target="_self">Rodrigo Chaves Robles</a></li>
+                <li><a href="jose.html" target="_self">José María Figueres Olsen</a></li>
+                <li><a href="encuestas.html" target="_self">Encuestas</a></li>
+            </ul>
+        </nav>
+        <section id="contenido">
+            <!-- Contenido de la página -->
+            <h2>Tabla de Candidatos</h2>
+            <table>
+                <!-- Encabezado de la tabla -->
+                <thead>
+                    <!-- Fila de encabezado -->
+                    <tr>
+                        <th>Candidato</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <!-- Cuerpo de la tabla -->
+                <tbody>
+                    <tr>
+                        <td>Rodrigo Chaves Robles</td>
+                        <td><a href="rodrigo.html"><img src="img/chaves.png" alt="Rodrigo Chaves Robles" width="110"
+                                    height="100"></a></td>
+                    </tr>
+                    <tr>
+                        <td>José María Figueres Olsen</td>
+                        <td><a href="jose.html"><img src="img/figueres.jpg" alt="José María Figueres Olsen" width="100"
+                                    height="100"></a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Resultados de las encuestas</h2>
+            <table>
+                <!-- Encabezado de la tabla -->
+                <thead>
+                    <!-- Fila de encabezado -->
+                    <tr>
+                        <th>Partido</th>
+                        <th>Candidato</th>
+                        <th><a href="https://ciep.ucr.ac.cr/wp-content/uploads/2022/01/INFORME-DE-RESULTADOS-DE-LA-ENCUESTA-CIEP-UCR-ENERO-2-2022.html"
+                                target="_blank">Encuesta #1</a></th>
+                        <th><a href="https://ciep.ucr.ac.cr/wp-content/uploads/2022/03/INFORME-DE-RESULTADOS-DE-LA-ENCUESTA-CIEP-UCR-MARZO-22-2022.html"
+                                target="_blank">Encuesta #2</a></th>
+                    </tr>
+                </thead>
+                <!-- Cuerpo de la tabla -->
+                <tbody>
+                    <tr>
+                        <td><img src="img/progreso.png" alt="Partido Progreso Social Democrático" width="150"
+                                height="100"></td>
+                        <td>Rodrigo Chaves Robles(PSD)</td>
+                        <td>5.8%</td>
+                        <td>43%</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="img/liberacion.png" alt="Partido Liberación Nacional" width="150" height="100">
+                        </td>
+                        <td>José María Figueres Olsen(PLN)</td>
+                        <td>15%</td>
+                        <td>38%</td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+            <h2>Links de importancia</h2>
+            <section id="links">
+                <ol>
+                    <li><a href="rodrigo.html" target="_self">Rodrigo Chaves Robles</a></li>
+                    <li><a href="jose.html" target="_self">José María Figueres Olsen</a></li>
+                    <li><a href="https://www.tse.go.cr/dondevotar/" target="_blank">Lugares de Votación</a></li>
+                    <li><a href="encuestas.html" target="_self">Encuestas</a></li>
+                </ol>
+            </section>
+
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2023 Josseline González Beita</p>
+    </footer>
+
+</body>
+
+</html>

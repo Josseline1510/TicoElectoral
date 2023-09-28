@@ -1,0 +1,171 @@
+#header {
+    background-image: url("img/fondo2.png"); /* Establece la imagen de fondo utilizando la URL "img/fondo2.png" */
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el encabezado */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 200px; /* Establece la altura deseada para el encabezado */
+    position: relative; /* Superpone el texto en la imagen */
+    padding: 30px;/* Espacio interno del encabezado */
+}
+
+.header-info {
+    position: absolute; /* Posiciona el contenido de información encima de la imagen de fondo */
+    top: 10%; /* Alinea el contenido verticalmente en el centro del encabezado */
+    left: 50%; /* Alinea el contenido horizontalmente en el centro del encabezado */
+    transform: translate(-50%, -50%); /* Centra el contenido correctamente */
+}
+
+
+/* Estilos generales para el cuerpo del documento */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente de texto */
+    font-size: 14px; /* Tamaño de texto base */
+    max-width: 1200px; /* Ancho máximo del contenido */
+    margin: auto; /* Centrar el contenido en el cuerpo del documento */
+}
+
+/* Estilos para encabezados de nivel 1 (h1) */
+h1 {
+    font-size: 3em; /* Tamaño del encabezado h1 */
+    letter-spacing: .2em; /* Espaciado entre caracteres */
+    padding-top: 4em; /* Espacio superior del encabezado h1 */
+    padding-bottom: 0em; /* Espacio inferior del encabezado h1 */
+    color: #1D3259; /* Color del texto del encabezado h1 */
+    text-align: center; /* Alineación del texto en el encabezado*/
+}
+
+/* Estilos para encabezados de nivel 2 (h2) */
+h2 {
+    font-size: 1.5em; /* Tamaño del encabezado h2 */
+    padding-bottom: 1em; /* Espacio inferior del encabezado h2 */
+    color: #B02434; /* Color del texto del encabezado h2 */
+}
+
+/* Estilos para encabezados de nivel 3 (h3) */
+h3{
+    font-size: 1.1em; /* Tamaño del encabezado h3 */
+    padding-bottom: 0em; /* Espacio inferior del encabezado h3 */
+    color: #B02434; /* Color del texto del encabezado h3 */
+}
+
+/* Estilos para encabezados de nivel 4 (h4) */
+h4 {
+    font-size: 1.1em; /* Tamaño del encabezado h4 */
+    padding-bottom: 0em; /* Espacio inferior del encabezado h4 */
+    color: #1D3259; /* Color del texto del encabezado h4 */
+}
+
+/* Estilo para el menú */
+#menu {
+    width: 200px; /* Ancho del menú lateral */
+    background-color: #1D3259; /* Color de fondo del menú lateral */
+    float: left;  /* Hace que el elemento flote hacia la izquierda */
+    padding: 20px; /* Establece un relleno interno de 20 píxeles en todas las direcciones */
+    min-height: 50vh; /* Establece la altura mínima igual al alto de la ventana del navegador */
+}
+
+#menu ul, ol {
+    list-style-type: square; /* Establece el tipo de viñeta como cuadrado */
+    padding: 0; /* Elimina el relleno en las listas dentro del menú */
+}
+
+#menu ul li, ol li {
+    margin-bottom: 20px; /* Establece un margen inferior de 20 píxeles en los elementos de lista */
+}
+
+#menu a {
+    text-decoration: none; /* Elimina la línea subrayada */
+    color: #1D3259; /* Color del texto del menú */
+    display: block; /* Hace que los enlaces sean elementos de bloque */
+    background-color: white; /* Color de fondo del menú */
+    padding: 10px; /* Espaciado interno del menú */
+    border-radius: 5px; /* Borde redondeado del menú */
+}
+
+#menu h2{
+    font-size: 1.5em; /* Tamaño de fuente del encabezado h2 */
+    padding-bottom: 2em; /* Espaciado inferior del encabezado h2 */
+    color: white; /* Color del texto del encabezado h2 */
+}
+
+/* Estilo para el contenido */
+#contenido {
+    margin-left: 25%; /* Establece un margen izquierdo del 25% del ancho del contenedor principal */
+    padding: 20px; /* Espaciado interno del contenido */
+}
+
+/* Estilos generales para la tabla */
+table {
+    width: 100%; /* Ancho de la tabla al 100% del contenedor */
+    border-collapse: collapse; /* Colapsar bordes de las celdas */
+    margin-top: 1px; /* Margen superior de 1px */
+}
+
+/* Estilos para las celdas del encabezado */
+th {
+    background-color: #f2f2f2; /* Color de fondo de las celdas de encabezado */
+    border: 1px solid #ddd; /* Borde de 1px y color gris claro */
+    padding: 11px; /* Espacio interno de las celdas de encabezado */
+    text-align: center; /* Alineación del texto al centro en las celdas de encabezado */
+}
+
+/* Estilos para las celdas de datos */
+td {
+    border: 1px solid #ddd; /* Borde de 1px y color gris claro en las celdas de datos */
+    padding: 10px; /* Espacio interno de las celdas de datos */
+    text-align: center; /* Alineación del texto al centro en las celdas de datos */
+}
+
+#links a {
+    text-decoration: none; /* Elimina la línea subrayada */
+    color: white; /* Color del texto del menú */
+    display: block; /* Hace que los enlaces sean elementos de bloque */
+    background-color: #B02434; /* Color de fondo del menú */
+    padding: 10px; /* Espaciado interno del menú */
+    border-radius: 5px; /* Borde redondeado del menú */
+}
+
+/* Estilos generales para el footer */
+footer {
+    background-color: #1D3259; /* Color de fondo del footer */
+    color: white; /* Color de fondo del footer */
+    padding: 20px; /* Espacio interno del footer */
+    text-align: center; /* Alineación del texto al centro */
+    font-style: oblique; /* Establece el estilo de fuente en oblicuo */
+}
+
+/* Estilos CSS para centrar las fotos */
+.imagen {
+    display: flex; /* Utiliza un contenedor flexible para alinear elementos en fila */
+    align-items: center; /* Centra verticalmente los elementos */
+    margin-bottom: 20px; /* Agrega espacio entre este contenido y el siguiente */
+}
+
+.texto {
+    margin-left: 20px; /* Agrega espacio entre la imagen y el texto */
+}
+
+
+/* Aplica un margen izquierdo a la lista ordenada para moverla hacia la derecha */
+ol {
+    margin-left: 20px; /* Agrega espacio entre la imagen y el texto */
+}
+
+/* Estilos CSS para centrar el video */
+.video-container {
+    display: flex; /* Utiliza un contenedor flexible para alinear elementos en fila */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+/* Estilos CSS para las cajitas de información */
+.cajita {
+    background-color: #B02434; /* Color de fondo de la caja */
+    border-radius: 10px; /* Borde redondeado */
+    padding: 10px; /* Espacio interno de la caja */
+    margin-bottom: 20px; /* Espacio entre cajas */
+}
+
+.enlace-blanco {
+    color: white; /* Color blanco para el texto del enlace */
+    text-decoration: none; /* Elimina la línea subrayada */
+  }
